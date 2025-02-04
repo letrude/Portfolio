@@ -152,6 +152,65 @@ article p {
     border-bottom-right-radius: 7px;
 }
 
+.rating {
+    margin: 50px auto;
+    width: 80%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-container {
+    margin-bottom: 30px;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill span {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    width: 100%;
+    background: #3e3e47;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.progress {
+    background: #d54857;
+    height: 100%;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.rate { 
+    width: 700px;
+}
+
+.rate h2 {
+    font-size: 35px;
+}
+
+#rate_div {
+    padding-left: 125px;
+    max-width: 1500px;
+}
+
+#rate_div h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+    max-width: none;
+}
+
 #pass {
     position: absolute;
     margin-top: 90vh;
@@ -188,10 +247,6 @@ article p {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#principal {
-    height: 500vh;
 }
 
 #presentation {
