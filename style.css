@@ -1,3 +1,8 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     background-color: #2e2e35;
     position: fixed;
@@ -25,6 +30,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #24242a;
     color: #ffffff;
+}
+
+footer {
+    height: 85vh;
+    width: 100%;
+    background-color: #24242a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 article {
@@ -200,9 +215,36 @@ article p {
     font-size: 35px;
 }
 
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.contact i {
+  color: rgb(213 72 87);
+  font-size: 30px;
+  margin: 0 0 0 90px;
+}
+.contact-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.contact-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+  margin-top: 0;
+}
+.contact-text span {
+  color: #757575;
+  font-size: 15px;
+}
+
 #rate_div {
     padding-left: 125px;
     max-width: 1500px;
+    padding-top: 80px;
 }
 
 #rate_div h1 {
@@ -327,4 +369,13 @@ article p {
     width: 55px;
     background: #c63d4c;
     color: #a0212f;
+}
+
+#foot {
+    display: flex;
+    justify-content: center;
+}
+
+#foot-text {
+    color: rgba(255, 255, 255, 0.5);
 }
