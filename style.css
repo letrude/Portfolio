@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -21,6 +25,9 @@ header {
     z-index: 1;
     color: rgba(255, 255, 255, 0.8);
     font-family: Arial, Helvetica, sans-serif;
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: reveal 0.6s 0.6s ease-out forwards;
 }
 
 body {
@@ -299,6 +306,17 @@ article p {
     margin-right: 78px;
 }
 
+#title {
+    opacity: 0;
+    transform: translateX(-15px);
+    animation: reveal 0.6s 0.6s ease-out forwards;
+}
+
+#screen {
+    opacity: 0;
+    transform: translateY(15px);
+    animation: reveal 0.6s 0.6s ease-out forwards;}
+
 #pc {
     position: absolute;
     width: 800px;
@@ -378,4 +396,11 @@ article p {
 
 #foot-text {
     color: rgba(255, 255, 255, 0.5);
+}
+
+@keyframes reveal {
+    100% {
+        opacity: 1;
+        transform: none;
+    }
 }
