@@ -6,13 +6,6 @@ footer {
     padding-top: 5vh;
 }
 
-header a {
-    display: block;
-    font-size: 20px;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.5);
-}
-
 img {
     height: 800px;
     width: 1600px;
@@ -27,6 +20,11 @@ p {
 h3 {
     font-size: 37px;
     margin: 44px 0 44px 0;
+}
+
+.atop {
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .animation {
